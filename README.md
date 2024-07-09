@@ -17,6 +17,18 @@ source venv/bin/activate  # On Windows use venv\Scripts\activate
 
 pip install -r requiremnets.txt
 
+4. Go to the root directory which is like
+
+    Directory: YourDirectory\Final project\testpro
+
+
+Mode                 LastWriteTime         Length Name                                                                                                                      
+----                 -------------         ------ ----                                                                                                                      
+d-----        08-07-2024     23:46                testapp                                                                                                                   
+d-----        08-07-2024     23:31                testpro                                                                                                                   
+-a----        08-07-2024     23:30            685 manage.py                                                                                                                 
+
+
 4. Apply migrations:
 
 python manage.py migrate
